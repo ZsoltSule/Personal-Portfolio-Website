@@ -5,7 +5,7 @@ img{
 .card{
     border: 1px solid hsl(0, 0%, 80%);
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 150px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
     padding: 20px;
     text-align: center;
@@ -15,4 +15,10 @@ img{
 .card .card-image{
     border-radius: 50%;
     margin-bottom: 10px;
+}
+.navbar{
+    border: 1px solid hsl(0, 0%, 80%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+    padding: 20px;
+    display: inline-block;
 }
