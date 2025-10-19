@@ -1,16 +1,14 @@
-img{
+.card-image{
     height: 600px;
     width: auto;  
 }
 .card{
     border: 1px solid hsl(0, 0%, 80%);
     margin-top: 50px;
-    margin-left: 150px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
     padding: 20px;
     text-align: center;
     max-width: 500px;
-    display: inline-block;
 }
 .card .card-image{
     border-radius: 50%;
@@ -18,7 +16,13 @@ img{
 }
 .navbar{
     border: 1px solid hsl(0, 0%, 80%);
+    margin-left: 75px;
+    margin-top: 40px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
-    padding: 20px;
-    display: inline-block;
+    padding: 100px 20px;
 }
+.container{
+    display: flex;
+    align-items: center;
+}
+

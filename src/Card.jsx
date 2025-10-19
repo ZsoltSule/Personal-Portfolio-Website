@@ -1,8 +1,20 @@
 import profilePic from './assets/pictures/card-profile-pic.jpeg'
+import circularPic from './assets/pictures/pfp_circular.png'
 
 function Card(){
     return(
         <>
+        <div className="container">
+            <nav className="navbar">
+                <ul className="space-y-16">
+                    <li className="-mt-20 mb-24"><img src={circularPic} className="w-16 h-16 rounded-full border-2 border-blue-500" alt="profile"/></li>
+                    <li><a><i className="fa-solid fa-house text-5xl"></i></a></li>
+                    <li><a><i className="fa-solid fa-book text-5xl"></i></a></li>
+                    <li><a><i className="fa-solid fa-file text-5xl"></i></a></li>
+                    <li><a><i className="fa-solid fa-message text-5xl"></i></a></li>
+                </ul>
+            </nav>
+
             <div className="card">
                 <img className="card-image" src={profilePic} alt="profile picture" ></img>
                 <h2 className="font-bold text-[40px] font-serif m-[0px]">Zsolt Sule</h2>
@@ -16,16 +28,8 @@ function Card(){
                 <a href="https://www.linkedin.com/in/sule-zsolt-5a3bb1357" target="_blank" rel="noopener noreferrer" className="inline-block transform transition duration-300 hover:scale-125">
                     <i className="fa-brands fa-square-linkedin text-5xl text-blue-800 hover:text-blue-900 transition-colors duration-300"></i>
                 </a>
-            </div>
-
-            <nav className="navbar">
-                <ul>
-                    <li><a><i className="fa-solid fa-house text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-book text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-file text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-message text-5xl"></i></a></li>
-                </ul>
-            </nav>      
+            </div>  
+        </div>    
         </>   
     );
 }
