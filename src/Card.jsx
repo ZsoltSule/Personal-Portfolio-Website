@@ -1,5 +1,6 @@
 import profilePic from './assets/pictures/card-profile-pic.jpeg'
 import circularPic from './assets/pictures/pfp_circular.png'
+import {Link} from "react-router-dom"
 
 function Card(){
     return(
@@ -8,10 +9,10 @@ function Card(){
             <nav className="navbar">
                 <ul className="space-y-16">
                     <li className="-mt-20 mb-24"><img src={circularPic} className="w-16 h-16 rounded-full border-2 border-blue-500" alt="profile"/></li>
-                    <li><a><i className="fa-solid fa-house text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-book text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-file text-5xl"></i></a></li>
-                    <li><a><i className="fa-solid fa-message text-5xl"></i></a></li>
+                    <li><Link to="/" aria-label="Home"><i className="fa-solid fa-house text-5xl"></i></Link></li>
+                    <li><Link to="/projects" aria-label="Projects"><i className="fa-solid fa-book text-5xl"></i></Link></li>
+                    <li><Link to="/resume" aria-label="Resume"><i className="fa-solid fa-file text-5xl"></i></Link></li>
+                    <li><Link to="/contacts" aria-label="Contacts"><i className="fa-solid fa-message text-5xl"></i></Link></li>
                 </ul>
             </nav>
 
