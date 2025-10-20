@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
-import Card from "./Card";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
-import Contacts from "./pages/Contacts";
+import Card from './Card'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Resume from './pages/Resume'
+import Contacts from './pages/Contacts'
 
 function App() {
 

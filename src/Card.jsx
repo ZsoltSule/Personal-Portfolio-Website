@@ -1,11 +1,11 @@
 import profilePic from './assets/pictures/card-profile-pic.jpeg'
 import circularPic from './assets/pictures/pfp_circular.png'
-import {Link} from "react-router-dom"
+import {Link} from 'react-router-dom'
 
 function Card(){
     return(
         <>
-        <div className="container">
+        <div className="container flex">
             <nav className="navbar">
                 <ul className="space-y-16">
                     <li className="-mt-20 mb-24"><img src={circularPic} className="w-16 h-16 rounded-full border-2 border-blue-500" alt="profile"/></li>
@@ -30,6 +30,10 @@ function Card(){
                     <i className="fa-brands fa-square-linkedin text-5xl text-blue-800 hover:text-blue-900 transition-colors duration-300"></i>
                 </a>
             </div>  
+            <div className="home-content flex-1">
+                <h1 className="text-4xl font-bold">Welcome to My Home Page</h1>
+                <p className="mt-4 text-lg">This is your main content area next to the card and navbar.</p>
+            </div>
         </div>    
         </>   
     );
