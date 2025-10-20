@@ -9,7 +9,7 @@ function Home(){
                 <p className="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum hic numquam 
                     deleniti ducimus architecto, fugiat velit exercitationem, 
-                    quas explicabo perferendis cupiditate obcaecati, minima dolores cum nisi. Veniam, iure quia?
+                    quas explicabo perferendis cupiditate obcaecati, minima dolores cum nisi. Veniam, iure quia?              
                 </p>
             </div>
         </>
