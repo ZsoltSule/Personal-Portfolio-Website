@@ -3,23 +3,25 @@
     width: auto;  
 }
 .card{
-    border: 1px solid hsl(0, 0%, 80%);
+    border: 1px solid hsl(45, 97%, 64%);
     margin-top: 50px;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+    box-shadow: 5px 5px 5px hsla(45, 97%, 64%, 0.4);
     padding: 20px;
     text-align: center;
     max-width: 500px;
+    background-color: hsl(0, 0%, 30%);
 }
 .card .card-image{
     border-radius: 50%;
     margin-bottom: 10px;
 }
 .navbar{
-    border: 1px solid hsl(0, 0%, 80%);
+    border: 1px solid hsl(45, 97%, 64%);
     margin-left: 75px;
     margin-top: 115px;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+    box-shadow: 5px 5px 5px hsla(45, 97%, 64%, 0.4);
     padding: 100px 20px;
+    background-color: hsl(0, 0%, 30%);
 }
 .container{
     display: flex;

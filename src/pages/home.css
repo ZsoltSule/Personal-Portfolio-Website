@@ -1,6 +1,6 @@
 .home-container {
-    border: 1px solid hsl(0, 0%, 80%);
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+    border: 1px solid hsl(45, 97%, 64%);
+    box-shadow: 5px 5px 5px hsla(45, 97%, 64%, 0.4);
     padding: 20px;
     margin-top: 115px;
     margin-right: 150px;
@@ -9,6 +9,8 @@
     overflow-x: hidden;
     scrollbar-width: none;          
     -ms-overflow-style: none; 
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 100%);
 }
 .home-container::-webkit-scrollbar {
     display: none; 
@@ -39,6 +41,8 @@
 .skills [data-lang="C#"] { color: hsl(104, 100%, 29%); }
 .skills [data-lang="C/C++"] { color: hsl(338, 87%, 66%); }
 .skills [data-lang="Python"] { color: hsl(207, 51%, 44%); }
+.skills [data-lang="HTML"] { color: hsl(14, 80%, 50%); }
+.skills [data-lang="CSS"] { color: hsl(261, 35%, 50%); }
 
 .skills span{
     margin-right: 30px;

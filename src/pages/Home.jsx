@@ -10,6 +10,8 @@ function Home(){
                 <hr></hr>
                 <p class="skills">
                     <span data-lang="C/C++">C/C++</span>
+                    <span data-lang="HTML">HTML</span>
+                    <span data-lang="CSS">CSS</span>
                     <span data-lang="JavaScript">JavaScript</span>
                     <span data-lang="C#">C#</span>                 
                     <span data-lang="Python">Python</span>               
