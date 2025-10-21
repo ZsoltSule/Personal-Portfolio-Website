@@ -13,8 +13,44 @@
 .home-container::-webkit-scrollbar {
     display: none; 
 }
-h1{
-    font-size: 4rem;
-    font-weight: bold;
+.title{
+    font-size: 3.7rem;
+    font-weight: 900;
     font-family: Arial;
+    padding: 20px;
+    text-align: center;  
 }
+.subtitle{
+    font-size: 1.9rem;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    font-family: mod-sans,sans-serif;
+    word-spacing: 15px;
+}
+.skills{
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.skills [data-lang="JavaScript"] { color: hsl(53, 84%, 65%) }
+.skills [data-lang="C#"] { color: hsl(104, 100%, 29%); }
+.skills [data-lang="C/C++"] { color: hsl(338, 87%, 66%); }
+.skills [data-lang="Python"] { color: hsl(207, 51%, 44%); }
+
+.skills span{
+    margin-right: 30px;
+}
+.description{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 20px;    
+    text-align: justify;
+    text-indent: 50px;
+}
+.description p{
+    padding: 10px;
+}
+
