@@ -1,4 +1,4 @@
-import project1 from './src/assets/banners/banner01.png'
+import project1 from '../assets/banners/banner01.png'
 
 export const projectsData = [
     {
