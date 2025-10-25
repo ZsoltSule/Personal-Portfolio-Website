@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { projectData } from "../data/projectData";
+import './projectDetails.css';
 
 function ProjectDetails(){
     const { id } = useParams();
@@ -10,10 +11,10 @@ function ProjectDetails(){
     }
 
     return(
-        <div className="p-10 text-white">
+        <div className="projectDetails-container p-10">
             <Link to="/projects" className="text-yellow-300 underline hover:text-yellow-400">Back to Projects</Link>
             <div className="mt-6"> 
-                <h1 className="text-4x1 font-bold text-yellow-300 mb-4">{project.title}</h1>
+                <h1 className="text-4xl font-bold text-white mb-4 text-center">{project.title}</h1>
                 <img src={project.image} alt={project.title} className="w-full h-96 object-cover rounded-lg mb-6"/>
                 <p className="text-lg mb-4">{project.longDesc}</p>
 

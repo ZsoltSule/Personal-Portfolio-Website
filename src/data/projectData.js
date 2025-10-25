@@ -4,7 +4,6 @@ export const projectData = [
     {
         id: "grims-adventure",
         title: "Grims's Adventure",
-        shortDesc: "A fun platformer game made with Python and Pygame.",
         longDesc: "It's game...",
         image: project1,
         languages: ["Python"],
