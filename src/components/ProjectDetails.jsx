@@ -23,6 +23,7 @@ function ProjectDetails(){
                 </ul>
                 <hr></hr>
                 <p className="text-lg mb-4 mt-4">{project.longDesc}</p>
+                <hr></hr>
 
                 <div className="flex gap-6 justify-center">
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="inline-block bg-yellow-300 text-black font-bold px-4 py-2 rounded hover:bg-yellow-400 transform transition duration-300 hover:scale-110 mt-4">GitHub</a>
