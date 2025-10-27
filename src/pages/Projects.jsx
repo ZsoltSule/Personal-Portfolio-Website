@@ -10,7 +10,7 @@ function Projects(){
 
     return(
             <div className="projects-container"> 
-                <h1 className="title text-3x1 text-white font-bold mb-4">My Projects</h1>
+                <h1 className="title">My Projects</h1>
                 <hr className="mb-4"/>
 
                 <div className="mb-6 text-center">
