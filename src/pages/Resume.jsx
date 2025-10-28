@@ -6,7 +6,7 @@ function Resume(){
             <div className="resume-container">
                 <h1 className="title">Resume</h1>
                 <hr></hr>
-                <p className="mb-4 mt-4 p-2 text-xl font-semibold">
+                <p className="mb-4 mt-4 p-2 text-xl font-semibold text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam omnis voluptatibus modi 
                     repellendus provident velit obcaecati porro! Eveniet ipsum expedita quo quas placeat quis, 
                     ex tempora harum. Perspiciatis, tenetur quo?
@@ -59,7 +59,7 @@ function Resume(){
                 <hr></hr>
                 <h1 className="title">Experience</h1>
                 <hr></hr>
-                <p>
+                <p className="mb-4 mt-4 p-2 text-xl font-semibold text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Recusandae exercitationem saepe, doloremque beatae quasi iste maxime dolorum illum enim, 
                     dolor corrupti a, architecto vero ullam veniam sunt accusantium. Error, maxime?
@@ -67,13 +67,16 @@ function Resume(){
                 <hr></hr>
                 <h1 className="title">Education</h1>
                 <hr></hr>
-                <p>
+                <p className="mb-4 mt-4 p-2 text-xl font-semibold text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Recusandae exercitationem saepe, doloremque beatae quasi iste maxime dolorum illum enim, 
                     dolor corrupti a, architecto vero ullam veniam sunt accusantium. Error, maxime?
                 </p>
                 <hr></hr>
-                <h1 className="title">Download My Resume</h1>
+                <div className="text-2xl text-center mt-4 p-4">
+                    <a href="/CV.pdf" download className="inline-block bg-yellow-300 text-black font-bold px-6 py-3 mr-4 rounded-2xl transform transition duration-300 hover:scale-110">Download Resume</a>
+                    <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="inline-block bg-yellow-300 text-black font-bold px-6 py-3 ml-4 rounded-2xl transform transition duration-300 hover:scale-110">View Resume</a>
+                </div>
             </div>
         </>
     );
