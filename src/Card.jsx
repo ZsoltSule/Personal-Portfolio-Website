@@ -28,7 +28,7 @@ function Card(){
                         <i className="fa-brands fa-instagram text-5xl bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent transition-colors duration-300"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/sule-zsolt-5a3bb1357" target="_blank" rel="noopener noreferrer" className="inline-block transform transition duration-300 hover:scale-125">
-                        <i className="fa-brands fa-square-linkedin text-5xl text-blue-800 transition-colors duration-300"></i>
+                        <i className="fa-brands fa-square-linkedin text-5xl text-blue-700 transition-colors duration-300"></i>
                     </a>
                 </div> 
             </div>  
