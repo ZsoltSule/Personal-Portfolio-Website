@@ -12,6 +12,9 @@
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
 }
+.projectDetails-container::-webkit-scrollbar {
+    display: none; 
+}
 body {
   background-image: url('/bg.jpeg');
   background-repeat: no-repeat;
