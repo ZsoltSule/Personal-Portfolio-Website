@@ -1,30 +1,318 @@
-.card-image{
-    height: 600px;
-    width: auto;  
+html, body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
-.card{
-    border: 1px solid hsl(45, 97%, 64%);
-    margin-top: 50px;
-    box-shadow: 5px 5px 5px hsla(45, 97%, 64%, 0.4);
-    padding: 20px;
-    text-align: center;
-    max-width: 500px;
-    background-color: hsl(0, 0%, 30%);
-}
-.card .card-image{
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-.navbar{
-    border: 1px solid hsl(45, 97%, 64%);
-    margin-left: 75px;
-    margin-top: 115px;
-    box-shadow: 5px 5px 5px hsla(45, 97%, 64%, 0.4);
-    padding: 100px 20px;
-    background-color: hsl(0, 0%, 30%);
-}
-.container{
+.container {
     display: flex;
-    align-items: center;
+    align-items: center;  
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box; 
+    margin-left: 3.5vw;
 }
 
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    background-color: hsl(0, 0%, 30%);
+    border: 1px solid hsl(45, 97%, 64%);
+    box-shadow: 4px 4px 10px hsla(45, 97%, 64%, 0.4);
+    padding: 30px 15px;
+    height: 65vh;
+}
+
+.navTop,
+.navIcons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.circularPic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid hsl(45, 97%, 64%);
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.navIcons li {
+    margin: 20px;
+}
+
+.navIcons {
+    display: flex;          
+    flex-direction: column; 
+    gap: 20px;              
+}
+
+.navIcons i {
+    font-size: 55px;
+    color: hsl(0, 0%, 0%);
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.navIcons i:hover {
+    transform: scale(1.25);
+    color: hsl(45, 97%, 64%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 30%);
+    padding: 25px;
+    border: 1px solid hsl(45, 97%, 64%);
+    width: 400px;
+    height: clamp(750px, 60vh, 1000px);
+    text-align: center;
+    box-shadow: 4px 4px 10px hsla(45, 97%, 64%, 0.4);
+}
+
+.profilePic {
+    width: auto;
+    height:450px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid hsl(45, 97%, 64%);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 45px;
+    color: hsl(0, 0%, 100%);
+    font-family: serif;
+}
+
+.card p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: hsl(45, 97%, 64%);
+}
+
+.socialsIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socialsIcons i {
+    margin-top: 10px;
+    font-size: 60px;
+    transition: 0.3s ease;
+}
+
+.navIcons a.active i {
+        color: hsl(45, 97%, 64%);
+    }
+
+.socialsIcons i:hover {
+    transform: scale(1.25);
+    color: hsl(45, 97%, 64%);
+}
+.github{
+    color: hsl(0, 0%, 0%);
+}
+.instagram {
+    background: linear-gradient(
+        to top right,
+        hsl(45, 98%, 73%),  
+        hsl(24, 95%, 55%),  
+        hsl(334, 66%, 50%), 
+        hsl(279, 59%, 46%), 
+        hsl(231, 64%, 57%)  
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.linkedin{
+    color: hsl(239, 90%, 49%);
+}
+.pageContent {
+    flex: 1;
+    padding-top: 20px;
+}
+
+@media (max-width: 1599px) {
+    .profilePic {
+        height: 400px;
+    }
+    .card {
+        height: clamp(600px, 50vh, 800px);
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+    .card h2 {
+        font-size: 30px;
+        margin-top: 10px; 
+    }
+    .card p {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .navIcons i {
+        font-size: 40px;
+        margin: 0;
+    }
+    .navIcons{
+        gap: 10px;
+    }
+    .socialsIcons i {
+        font-size: 45px; 
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1400px) and (orientation: landscape){
+
+    .navWrapper {
+        width: 70px;
+        height: 60vh; 
+        padding: 15px 10px;
+    }
+    .navIcons i {
+        font-size: 45px;
+    }
+    .navIcons{
+        gap: 0px;
+    }
+    .circularPic {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .card {
+        width: 300px; 
+        min-height: 750px; 
+        max-height: 70vh;  
+    }
+    .profilePic {
+        width: 300px;  
+        height: auto;   
+        object-fit: cover;
+    }
+}
+@media (max-width: 1150px) and (orientation: landscape) {
+    .card {
+        width: 300px; 
+        min-height: 650px; 
+        max-height: 70vh;  
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+
+    .profilePic{
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navWrapper {
+        width: 50%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px;
+        gap: 30px;
+        position: relative;
+    }
+
+    .navIcons {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .socialsIcons i {
+        font-size: 50px;
+    }
+
+    .navIcons li {
+        margin: 0;
+    }
+
+    .circularPic {
+        margin-bottom: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 550px;
+        min-height: 150px;
+        max-height: 18vh;
+    }
+    .card h2 {
+        font-size: 40px;
+    }
+
+    .card p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profilePic{
+        display: none;
+    }
+
+    .navWrapper {
+        width: 80%;
+    }
+
+    .navIcons {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .navIcons li {
+        margin: 0;
+    }
+
+    .circularPic {
+        margin-bottom: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 350px;
+        min-height: 80px;   
+        max-height: 19vh;
+    }
+    .navIcons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .socialsIcons i {
+        font-size: 30px;
+    }
+    .navIcons i {
+        font-size: 30px;
+    }
+    .card h2 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size: 25px;
+    }
+}

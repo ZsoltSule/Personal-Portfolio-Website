@@ -13,4 +13,26 @@ export const projectData = [
         github: "https://github.com/ZsoltSule/Grims-Adventure",
         live: null,
     },
+    {
+        id: "grims-adventure",
+        title: "Grims's Adventure",
+        longDesc: "It's game...",
+        image: project11,
+        demo: project01,
+        languages: ["Python"],
+        technologies: ["Pygame"],
+        github: "https://github.com/ZsoltSule/Grims-Adventure",
+        live: null,
+    },
+    {
+        id: "grims-adventure",
+        title: "Grims's Adventure",
+        longDesc: "It's game...",
+        image: project11,
+        demo: project01,
+        languages: ["Python"],
+        technologies: ["Pygame"],
+        github: "https://github.com/ZsoltSule/Grims-Adventure",
+        live: null,
+    }
 ];
