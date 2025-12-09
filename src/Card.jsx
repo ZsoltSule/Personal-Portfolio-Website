@@ -43,7 +43,7 @@ function Card() {
                 <div className="card">
                     <img className="profilePic" src={profilePic} alt="profile picture" />
                     <h2>Zsolt Sule</h2>
-                    <p>Web Developer</p>
+                    <p>Frontend Engineer</p>
 
                     <div className="socialsIcons">
                         <a href="https://github.com/ZsoltSule" target="_blank" rel="noopener noreferrer">
