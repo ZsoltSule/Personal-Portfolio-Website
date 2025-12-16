@@ -111,9 +111,7 @@
 }
 @media (max-width: 1200px) and (orientation: landscape) {
     .home-container {
-        max-width: 700px;
-        padding: 20px 15px;
-        height: 60vh; 
+        max-width: 490px;
     }
     .home-container hr {
         width: 95%; 

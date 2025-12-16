@@ -145,9 +145,7 @@
 }
 @media (max-width: 1200px) and (orientation: landscape) {
     .contacts-container {
-        max-width: 600px;
-        padding: 20px 15px;
-        height: 60vh;
+        max-width: 490px;
     }
     .inner-wrapper p{
         text-indent: 35px;

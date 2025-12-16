@@ -135,9 +135,7 @@
 
 @media (max-width: 1200px) and (orientation: landscape) {
     .resume-container {
-        max-width: 700px;
-        padding: 20px 15px;
-        height: 60vh;
+        max-width: 490px;
     }
     .inner-wrapper {
         max-width: 450px;

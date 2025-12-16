@@ -7,7 +7,7 @@ function Home() {
                 <div className="inner-wrapper">
                     <h1>About Me</h1>
                     <hr/>
-                    <h2>22 / Frontend Engineer / Oradea</h2>
+                    <h2>22 / Frontend Developer / Oradea</h2>
                     <hr/>
 
                     <div className="skills">
@@ -25,7 +25,7 @@ function Home() {
 
                     <div className="description">
                         <p>
-                            Hello, I'm Zsolt, a 22-year-old Junior Frontend Engineer with a bachelor's degree in Computer Science.
+                            Hello, I'm Zsolt, a 22-year-old Junior Frontend Developer with a bachelor's degree in Computer Science.
                             I've had a strong passion for technology and programming from a young age. It all began with gaming as a kid, 
                             and later in school I was introduced to programming that’s when my journey truly started.
                         </p>
