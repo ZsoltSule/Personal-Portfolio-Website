@@ -12,7 +12,16 @@ import project06 from '../assets/appPics/pong.png'
 import project16 from '../assets/banners/banner06.png'
 import project07 from '../assets/appPics/inventory.png'
 import project17 from '../assets/banners/banner07.png'
-
+import project08 from '../assets/appPics/color.png'
+import project18 from '../assets/banners/banner08.png'
+import project09 from '../assets/appPics/weather.png'
+import project19 from '../assets/banners/banner09.png'
+import project010 from '../assets/appPics/todo.png'
+import project20 from '../assets/banners/banner10.png'
+import project011 from '../assets/appPics/calculator.png'
+import project21 from '../assets/banners/banner11.png'
+import project012 from '../assets/appPics/stopwatch.png'
+import project22 from '../assets/banners/banner12.png'
 
 export const projectData = [
     {
@@ -71,6 +80,17 @@ export const projectData = [
         live: null,
     },
     {
+        id: "weather-app",
+        title: "Weather App",
+        longDesc: "A weather application where you can enter a city name to get the current temperature in Celsius, humidity levels, a brief weather description, and an illustrative image of the conditions.",
+        image: project19,
+        demo: project09,
+        languages: ["JavaScript"],
+        technologies: ["JavaScript", "HTML", "CSS"],
+        github: "https://github.com/ZsoltSule/WeatherApp",
+        live: null,
+    },
+    {
         id: "rock-paper-scissors",
         title: "Rock Paper Scissors",
         longDesc: "A web application that lets you play Rock, Paper, Scissors with a friend, featuring a clean and attractive design.",
@@ -90,6 +110,50 @@ export const projectData = [
         languages: ["Python"],
         technologies: ["Python", "Django", "HTML", "CSS", "Bootstrap"],
         github: "https://github.com/ZsoltSule/DjangoWebsite",
+        live: null,
+    },
+    {
+        id: "color-picker",
+        title: "Color Picker",
+        longDesc: "An application that lets you pick colors using HSL values and instantly displays the selected color.",
+        image: project18,
+        demo: project08,
+        languages: ["JavaScript"],
+        technologies: ["React", "JavaScript", "HTML", "CSS"],
+        github: "https://github.com/ZsoltSule/Color-Picker-React",
+        live: null,
+    },
+    {
+        id: "to-do",
+        title: "To Do List",
+        longDesc: "A simple to-do list application with a clean and minimal design.",
+        image: project010,
+        demo: project20,
+        languages: ["JavaScript"],
+        technologies: ["React", "JavaScript", "HTML", "CSS"],
+        github: "https://github.com/ZsoltSule/React-ToDoList",
+        live: null,
+    },
+    {
+        id: "calculator",
+        title: "Calculator",
+        longDesc: "A calculator application inspired by the iOS design, featuring a clean layout and smooth, intuitive interactions.",
+        image: project011,
+        demo: project21,
+        languages: ["JavaScript"],
+        technologies: ["JavaScript", "HTML", "CSS"],
+        github: "https://github.com/ZsoltSule/React-ToDoList",
+        live: null,
+    },
+    {
+        id: "stopwatch",
+        title: "Stopwatch",
+        longDesc: "A modern, minimalist stopwatch application with an intuitive design for easy and accurate time tracking.",
+        image: project012,
+        demo: project22,
+        languages: ["JavaScript"],
+        technologies: ["JavaScript", "HTML", "CSS"],
+        github: "https://github.com/ZsoltSule/Stopwatch",
         live: null,
     },
 ];
