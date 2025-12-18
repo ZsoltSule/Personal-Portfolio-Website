@@ -1,6 +1,6 @@
 import profilePic from './assets/pictures/card-profile-pic.jpeg'
 import circularPic from './assets/pictures/pfp_circular.png'
-import './Card.css';
+import './card.css';
 import { NavLink, Outlet } from 'react-router-dom'
 
 function Card() {
