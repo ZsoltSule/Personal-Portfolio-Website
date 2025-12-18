@@ -1,4 +1,4 @@
-import './Resume.css';
+import './resume.css';
 
 function Resume() {
   return (
